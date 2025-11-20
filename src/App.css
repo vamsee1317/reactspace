@@ -1,1 +1,56 @@
 @import "tailwindcss";
+
+/* Global App Styling */
+body {
+  background: #f2f4f7;
+  font-family: "Inter", sans-serif;
+}
+
+/* Wrapper for all components */
+.app-container {
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Space between components */
+.component-block {
+  margin-bottom: 40px;
+}
+
+/* Card-like appearance for all guides */
+.guide-card {
+  border-radius: 20px;
+  background: white;
+  padding: 24px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* Heading Styling */
+.guide-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: #2563eb;
+}
+
+/* Code block global style */
+.code-block {
+  background: #1e1e1e;
+  font-family: "Fira Code", monospace;
+  padding: 16px;
+  border-radius: 12px;
+  font-size: 14px;
+  margin-top: 12px;
+  color: #b5f4a5;
+  overflow-x: auto;
+  border-left: 5px solid #10b981;
+}
+
+/* Section headings */
+.section-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #374151;
+}
