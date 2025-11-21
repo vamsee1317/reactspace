@@ -4,6 +4,7 @@ import ReactComponentsGuide from './components/concepts/compTypes/ReactComponent
 import ReactPropsGuide from './components/concepts/props/ReactPropsGuide'
 import ReactStateGuide from './components/concepts/states/ReactStateGuide'
 import './App.css'
+import Counter from './components/concepts/states/Counter'
 
 export default function App() {
   return (
@@ -23,6 +24,11 @@ export default function App() {
 
       <div className="component-block">
         <ReactStateGuide />
+        <Counter />
+      </div>
+
+      <div className="component-block">
+
       </div>
 
     </div>
