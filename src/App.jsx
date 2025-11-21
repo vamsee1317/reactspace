@@ -5,6 +5,7 @@ import ReactPropsGuide from './components/concepts/props/ReactPropsGuide'
 import ReactStateGuide from './components/concepts/states/ReactStateGuide'
 import './App.css'
 import Counter from './components/concepts/states/Counter'
+import ReactClassStateGuide from './components/concepts/states/ReactClassStateGuide'
 
 export default function App() {
   return (
@@ -25,6 +26,7 @@ export default function App() {
       <div className="component-block">
         <ReactStateGuide />
         <Counter />
+        <ReactClassStateGuide />
       </div>
 
       <div className="component-block">
