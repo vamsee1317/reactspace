@@ -9,6 +9,7 @@ import ReactClassStateGuide from './components/concepts/states/ReactClassStateGu
 import ReactUseEffectGuide from './components/hooks/ReactUseEffectGuide'
 import TodoApp from './components/hooks/TodoApp'
 import ReactListsKeysDemo from './components/concepts/listsKeys/ReactListsKeysDemo'
+import ReactConditionalRendering from './components/concepts/cr/ReactConditionalRendering'
 
 export default function App() {
   return (
@@ -39,6 +40,10 @@ export default function App() {
 
       <div className="component-block">
         <ReactListsKeysDemo />
+      </div>
+
+      <div className="component-block">
+        <ReactConditionalRendering />
       </div>
 
     </div>
