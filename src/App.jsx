@@ -7,6 +7,8 @@ import './App.css'
 import Counter from './components/concepts/states/Counter'
 import ReactClassStateGuide from './components/concepts/states/ReactClassStateGuide'
 import ReactUseEffectGuide from './components/hooks/ReactUseEffectGuide'
+import TodoApp from './components/hooks/TodoApp'
+import ReactListsKeysDemo from './components/concepts/listsKeys/ReactListsKeysDemo'
 
 export default function App() {
   return (
@@ -32,6 +34,11 @@ export default function App() {
 
       <div className="component-block">
           <ReactUseEffectGuide />
+          <TodoApp />
+      </div>
+
+      <div className="component-block">
+        <ReactListsKeysDemo />
       </div>
 
     </div>
