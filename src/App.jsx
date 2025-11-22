@@ -6,6 +6,7 @@ import ReactStateGuide from './components/concepts/states/ReactStateGuide'
 import './App.css'
 import Counter from './components/concepts/states/Counter'
 import ReactClassStateGuide from './components/concepts/states/ReactClassStateGuide'
+import ReactUseEffectGuide from './components/hooks/ReactUseEffectGuide'
 
 export default function App() {
   return (
@@ -30,7 +31,7 @@ export default function App() {
       </div>
 
       <div className="component-block">
-
+          <ReactUseEffectGuide />
       </div>
 
     </div>
