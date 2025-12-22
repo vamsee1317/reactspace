@@ -17,6 +17,7 @@ import ReactUseEffectGuide from "./components/hooks/ReactUseEffectGuide";
 import TodoApp from "./components/hooks/TodoApp";
 import ReactListsKeysDemo from "./components/concepts/listsKeys/ReactListsKeysDemo";
 import ReactConditionalRendering from "./components/concepts/cr/ReactConditionalRendering";
+import ReactAxiosConcept from "./components/concepts/axios/ReactAxiosConcept";
 
 export default function App() {
   return (
@@ -37,6 +38,7 @@ export default function App() {
                 <Route path="/useeffect" element={<PageTransition><ReactUseEffectGuide /><TodoApp /></PageTransition>} />
                 <Route path="/listkeys" element={<PageTransition><ReactListsKeysDemo /></PageTransition>} />
                 <Route path="/cr" element={<PageTransition><ReactConditionalRendering /></PageTransition>} />
+                <Route path="/axios" element={<PageTransition><ReactAxiosConcept/></PageTransition>} />
               </Routes>
             </AnimatePresence>
           </main>

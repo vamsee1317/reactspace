@@ -16,6 +16,7 @@ export default function Sidebar() {
     { name: "useEffect & Todo", path: "/useeffect" },
     { name: "Lists & Keys", path: "/listkeys" },
     { name: "Conditional Rendering", path: "/cr" },
+      { name: "Axios", path: "/axios" },
   ];
 
   const filteredLinks = links.filter(link =>
